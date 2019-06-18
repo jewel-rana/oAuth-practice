@@ -43,17 +43,17 @@ use Symfony\Component\HttpFoundation\Response;
 /**
  * Replace this with the client ID you got from the Google APIs console.
  */
-const CLIENT_ID = 'YOUR_CLIENT_ID';
+const CLIENT_ID = '6975892034-0i7qm4kfiigum13aji0ccto9a90db35r.apps.googleusercontent.com';
 
 /**
  * Replace this with the client secret you got from the Google APIs console.
  */
-const CLIENT_SECRET = 'YOUR_CLIENT_SECRET';
+const CLIENT_SECRET = 'p0AkFwMmzVFLksipKIgGqEnA';
 
 /**
  * Optionally replace this with your application's name.
  */
-const APPLICATION_NAME = "Google+ PHP Quickstart";
+const APPLICATION_NAME = "JAJAVALO.COM";
 
 $client = new Google_Client();
 $client->setApplicationName(APPLICATION_NAME);
